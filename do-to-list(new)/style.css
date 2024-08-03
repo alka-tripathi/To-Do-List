@@ -1,0 +1,166 @@
+*{
+    margin:0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+    /* color: #201E43; */
+    color:#FF5BAE;
+   
+}
+h2{
+    text-align: center;
+    padding: 10px;
+    color:#201E43;
+    
+}
+#instruction{
+    color:#39B5E0;
+}
+#newtasks{
+    height:8%;
+    width: 20%;
+    position:relative;
+    top:80%;
+    left: 42%;
+    border: 10px;
+    border: none;
+    background-color: aliceblue;
+    font-weight: bolder;
+    color: #201E43;
+   
+}
+#newtasks:hover{
+    border:2px solid #39B5E0;
+}
+body{
+/* background-color: #9CDBA6;
+background-color: #134B70; */
+height: 100%;
+width: 100%;
+background-image: url("Untitled\ design\ \(1\).png");
+background-position: center;
+background-size: cover;
+}
+ul{
+    text-align: center;
+   
+}
+li{
+    list-style: circle;
+    padding: 1px;
+}
+span{
+    color:#FF76CE;
+}
+.container{
+    width:40%;
+    height:80vh;
+    /* background-color: blue; */
+    display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   margin: auto;
+   margin-top:3%;
+   
+}
+p{
+    text-align: center;
+    padding: 8px;
+    font-size: 20px;
+    margin: auto;
+}
+
+.smalldiv{
+    height:10vh;
+    width:90%;
+    background-color: #F9E400;
+    /* background-color: #468585; */
+    border-radius:10px;
+/* 
+    text-align: center; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: auto;
+    /* border: 2px solid #201E43; */
+    
+}
+input{
+    height: 7vh;
+    width:80%;
+    text-align: center;
+    margin-top:2%;
+    font-size: 20px;
+    border:none;
+    outline:none;
+}
+#btn{
+    width: 15%;
+    height:7vh;
+    margin-top:2%;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: bolder;
+    color:#201E43;
+    
+}
+#btn:hover{
+   border:2px solid #39B5E0;
+}
+.bigdiv{
+    height:65vh;
+    width:90%;
+    background-color: #EEEEEE;
+    margin: auto;
+    /* border: 2px solid #201E43; */
+  
+    
+}
+/* button{
+    height: 50px;
+    width: 500px;
+    
+} */
+.li{
+   
+    margin-top: 10px;
+    list-style: square;
+    /* width: 450px;
+    height: 40px; */
+  
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-left: 20px;
+    padding-top: 10px;
+    font-size: 21px;
+    text-transform: capitalize;
+
+    
+}
+.liHide{
+    visibility: hidden;
+}
+.donebtn{
+    width: 15%;
+    height:6vh;
+    border: #468585;
+    background-color: white;
+    color:#201E43;
+    font-weight: bolder;
+    margin-right: 8%;
+  
+}
+.donedisable{
+    /* visibility: hidden; */
+    display: none;
+}
+.completed{
+    text-decoration: line-through;
+}
